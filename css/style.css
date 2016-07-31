@@ -741,8 +741,8 @@ footer {
   height: 295px;
 }
 .slide-header__img--play {
-  height: 50px;
-  width: 50px;
+  height: 70px;
+  width: 70px;
   top:20%;
   left: 67%;
 }
@@ -899,6 +899,7 @@ footer{
 }
 .slider-container {
   background-color:transparent;
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#00000000,endColorstr=#00000000);
 }
 .slide-header__paragrph{
   display: none;
