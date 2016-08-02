@@ -25,20 +25,34 @@
           <li class="menu__item menu__item--drop"><a class="menu__link" href="#"><span class="underline">DOLOR SIT AMET</span></a></li>
        </ul>
     </div>
-    <div class="slider-container">
-     <div class="wrapper wrapper--slide">
-      <div class="slide-header">
-        <div class="slide-header__descpiption">
-          <h1 class="slide-header__title">Lorem Ipsum Dolor</h1>
-          <h3 class="slide-header__subtitle">IT WILL MAKE ALL OF YOUR DREAMS COME TRUE</h3>
-          <p class="slide-header__paragrph">Semper sollicitudin gravida eget, vest&shyibulum sit amet sapien. Nunc dignis&shysim tincidunt est, et auctor turpis ornare a. Nam venenatis hendrerit est <span class="hidden768">at volutpat. Morbi elementum euismod lacus id semper. In odio nunc, imperdiet eget aliquam quis, euismod id lectus. Nulla interdum arcu et felis aliquam a tempus lectus lobortis.</span></p>
-        </div>
-        <img src="img/iphone.png" class="slide-header__img slide-header__img--back">
-        <img src="img/iphone4.png"class="slide-header__img slide-header__img--front">
-        <a href="#" class="slide-header__img--play"></a>
-      </div>
-     </div>
+    <div class="slider">
+      <input type="radio" name="point" id="slide1" >
+    	<input type="radio" name="point" id="slide2" checked="checked">
+    	<input type="radio" name="point" id="slide3">
+	    <input type="radio" name="point" id="slide4">
+      <div class="slider__container">
+        <div class="slides">
+          <div class="wrapper wrapper--slide">
+           <div class="slide">
+             <div class="slide__descpiption">
+               <h1 class="slide__title">Lorem Ipsum Dolor</h1>
+               <h3 class="slide__subtitle">IT WILL MAKE ALL OF YOUR DREAMS COME TRUE</h3>
+               <p class="slide__paragrph">Semper sollicitudin gravida eget, vest&shyibulum sit amet sapien. Nunc dignis&shysim tincidunt est, et auctor turpis ornare a. Nam venenatis hendrerit est <span class="hidden768">at volutpat. Morbi elementum euismod lacus id semper. In odio nunc, imperdiet eget aliquam quis, euismod id lectus. Nulla interdum arcu et felis aliquam a tempus lectus lobortis.</span></p>
+             </div>
+             <img src="img/iphone.png" class="slide__img slide__img--back">
+             <img src="img/iphone4.png"class="slide__img slide__img--front">
+             <a href="#" class="slide__img slide__img--play"></a>
+           </div>
+          </div>
+       </div>
     </div>
+  </div>
+  <div class="wrapper wrapper--active">
+    <label for="slide1"></label>
+		<label for="slide2"></label>
+		<label for="slide3"></label>
+		<label for="slide4"></label>
+  <div>
   </header>
   <div class="about__container">
     <div class="wrapper wrapper--about">
@@ -70,12 +84,23 @@
   </div>
   <main class="main">
     <div class="wrapper wrapper--main">
-     <div class="slider-container2">
-       <div class="slide-main">
-         <img class="slide-main__img" src="img/manshead.png">
-         <p class="slide-main__title">PINGBULLER <span class="slide-main__title--pink">STARTS HERE</span></p>
-         <p class="slide-main__text">“Nunc turpis neque, feu&shygiat eget eleifend et, lacinia non neque. Prae&shysent rhoncus ultrices <span class="posuere">po&shysuere.</span> Pellentesque vel lacus eget nisi  conval&shylis auctor. Nam vitae <span class="hidden320">lectus eu libero pellentesque pulvinar <span class="hidden768">urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl.”</span></span></p>
+    <div class="small-slider__container">
+      <input type="radio" name="point" id="smallslide1" >
+    	<input type="radio" name="point" id="smallslide2" checked="checked">
+    	<input type="radio" name="point" id="smallslide3">
+	    <input type="radio" name="point" id="smallslide4">
+      <div class="small-slider">
+         <div class="small-slide small-slide--2">
+           <img class="small-slide__img" src="img/manshead.png">
+           <p class="small-slide__title">PINGBULLER <span class="small-slide__title--pink">STARTS HERE</span></p>
+           <p class="small-slide__text">“Nunc turpis neque, feu&shygiat eget eleifend et, lacinia non neque. Prae&shysent rhoncus ultrices <span class="posuere">po&shysuere.</span> Pellentesque vel lacus eget nisi  conval&shylis auctor. Nam vitae <span class="hidden320">lectus eu libero pellentesque pulvinar <span class="hidden768">urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl.”</span></span></p>
+         </div>
+         <div class="triangle"></div>
        </div>
+        <label for="smallslide1"></label>
+    		<label for="smallslide2"></label>
+    		<label for="smallslide3"></label>
+    		<label for="smallslide4"></label>
      </div>
      <div class="updates">
        <div class="updates__content">
