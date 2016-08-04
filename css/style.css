@@ -125,6 +125,7 @@ color:#fff;
   width: auto;
   height:0px;
   box-sizing: border-box;
+  text-align: center;
 }
 .wrapper--active label{
   margin-top: 3%;
@@ -330,6 +331,9 @@ color:#fff;
   font-family: open_sans,sans-serif;
   color: #454545;
 }
+.active-small{
+  text-align: center;
+}
 .logos{
   background-color: #f9f9f9;
   border-bottom: 1px solid #d5d3d3;
@@ -480,7 +484,6 @@ footer {
  }
  .wrapper--active {
    margin-top: 95px;
-   padding-left: 40%;
  }
  .about__article {
    width: 33%;
@@ -652,7 +655,6 @@ footer {
   }
   .wrapper--active {
     margin-top: 38px;
-    padding-left: 40%;
   }
   .about__article {
     width: 32.9%;
